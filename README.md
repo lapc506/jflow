@@ -7,8 +7,9 @@ JFlow
 Quick Usage Instructions
 ------------------------
 
-Sample code is available in the `jflow.demo` package. Generally, you
-would probably use JFlow as follows:
+Sample code is NOT available in this fork. You can look for it on the original
+repository at: [DEMO](https://github.com/timdp/jflow/tree/master/src/be/pwnt/jflow/demo/))
+Generally, you would probably use JFlow as follows:
 
 1. Get or compile the JFlow JAR file and add it to your class path.
 2. Look at the source code of `jflow.Configuration`, which contains all
