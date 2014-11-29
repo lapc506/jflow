@@ -7,14 +7,14 @@ JFlow
 Quick Usage Instructions
 ------------------------
 
-Sample code is available in the `be.pwnt.jflow.demo` package. Generally, you
+Sample code is available in the `jflow.demo` package. Generally, you
 would probably use JFlow as follows:
 
 1. Get or compile the JFlow JAR file and add it to your class path.
-2. Look at the source code of `be.pwnt.jflow.Configuration`, which contains all
+2. Look at the source code of `jflow.Configuration`, which contains all
 the available parameters.
 3. Create an instance of `Configuration`. At the very least, create the shape
-array and fill it with instances of `be.pwnt.jflow.shape.Picture`.
+array and fill it with instances of `jflow.shape.Picture`.
 4. Create an instance of `JFlowPanel`, passing it the `Configuration` instance.
 5. Use the `JFlowPanel` instance like any other `JPanel`.
 
@@ -28,9 +28,9 @@ Three shape-related events are currently implemented:
 * clicking an activated shape.
 
 To capture such events, `JFlowPanel` offers a standard Observer pattern.
-Implement `be.pwnt.jflow.ShapeListener` in a new class, instantiate the class 
+Implement `jflow.ShapeListener` in a new class, instantiate the class 
 and register the instance with the panel using the `addListener` method. This
-procedure is also used in the `be.pwnt.jflow.demo` package.
+procedure is also used in the `jflow.demo` package.
 
 Author
 ------
