@@ -1,6 +1,0 @@
-Manifest-Version: 1.0
-Created-By: 1.7.0_51
-Permissions: sandbox
-Codebase: timdp.github.io
-Class-Path: jflow-trunk.jar
-Main-Class: be.pwnt.jflow.demo.Launcher
